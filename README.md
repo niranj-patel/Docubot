@@ -1,3 +1,18 @@
+# 🤖 Docubot - AI Document Intelligence Hub
+
+> **Live Demo**: [https://docubot1.streamlit.app/](https://docubot1.streamlit.app/)
+
+An intelligent document processing and Q&A system powered by advanced RAG (Retrieval-Augmented Generation) architecture. Transform any web content into an interactive knowledge base with AI-powered question answering.
+
+## ✨ Features
+
+- 🔗 **URL Processing**: Extract and analyze content from any web URL
+- 🧠 **Smart Q&A**: AI-powered question answering with source citations
+- 🔍 **Semantic Search**: Advanced vector-based document retrieval
+- 📊 **Real-time Analytics**: Processing metrics and session statistics
+- 🎨 **Modern UI**: Clean, responsive interface with glassmorphism design
+- ⚡ **Fast Processing**: Optimized chunking and embedding pipeline
+- 💾 **Persistent Storage**: Chroma vector database with session management
 
 ### Technology Stack
 
@@ -133,3 +148,9 @@ Generates an AI answer for the given query.
 ```bash
 # Install development dependencies
 pip install -r requirements.txt
+```
+
+```bash
+# Streamlit URL 
+https://docubot1.streamlit.app/
+```
