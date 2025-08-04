@@ -10,3 +10,4 @@ langchain-huggingface
 sentence-transformers
 beautifulsoup4
 requests
+pysqlite3-binary
