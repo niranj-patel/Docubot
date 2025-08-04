@@ -491,7 +491,6 @@ with st.sidebar:
     st.markdown("### 🔧 Configuration Panel")
     
     # URL Input Section
-    st.markdown('<div class="sidebar-section">', unsafe_allow_html=True)
     st.markdown("#### 🌐 Document Sources")
     
     # Dynamic URL inputs
@@ -529,7 +528,7 @@ with st.sidebar:
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Processing Section
-    st.markdown('<div class="sidebar-section">', unsafe_allow_html=True)
+  
     st.markdown("#### ⚡ AI Processing")
     
     if st.button("🚀 Process & Analyze", type="primary", use_container_width=True):
@@ -574,7 +573,6 @@ with st.sidebar:
     st.markdown('</div>', unsafe_allow_html=True)
     
     # Enhanced System Status
-    st.markdown('<div class="sidebar-section">', unsafe_allow_html=True)
     st.markdown("#### 📈 System Status")
     
     if st.session_state.processed_urls:
